@@ -12,3 +12,23 @@ header {
     gap: 10px;
     padding-left: 10px;
 }
+
+#busca {
+    border: none;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+}
+
+#btnBusca {
+    width: 41px;
+    height: 41px;
+    background: #2f77fd url(https://img.lojadomecanico.com.br/imagens_sitenovo/imagens/search.png) no-repeat center center;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    font-weight: 700;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+}
