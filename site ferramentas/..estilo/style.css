@@ -11,8 +11,10 @@ header {
     
     display: inline-flex;
     align-items: center;
-    background-color: orangered;
+
+    
     padding: 10px;
+    gap: 50px;
 }
 
 #busca {
