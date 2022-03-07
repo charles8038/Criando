@@ -4,13 +4,15 @@
 }
 
 header {
-    background-color: orangered;
-    height: 200px;
-    display: flex;
-    flex-direction: row;
+    color: rgb(167, 165, 161);
+}
+
+.topo {
+    
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding-left: 10px;
+    background-color: orangered;
+    padding: 10px;
 }
 
 #busca {
@@ -18,17 +20,4 @@ header {
     width: 100%;
     height: 50px;
     border-radius: 5px;
-}
-
-#btnBusca {
-    width: 41px;
-    height: 41px;
-    background: #2f77fd url(https://img.lojadomecanico.com.br/imagens_sitenovo/imagens/search.png) no-repeat center center;
-    border: none;
-    border-radius: 0;
-    color: #fff;
-    font-weight: 700;
-    position: absolute;
-    top: -1px;
-    right: -1px;
 }
