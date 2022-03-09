@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(177, 177, 177);
+    font-family: sans-serif;
+    
+}
+header {
+    
+    
+}
+h1 {
+    text-align: center;
+    font-family:'Russo One', sans-serif ;
+    font-size: 5vh;
+    border-bottom:3px solid rgb(255, 255, 255);
+    width: 60vh;
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.411);
+    
+}
+.home-busca {
+    background-color: rgb(253, 112, 61);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+#icone-home {
+    height: 50px;
+    width: 50px;
+}
+#busca {
+    width: 30%;
+}
+#btnbusca {
+    
+}
+nav {
+    display: inline;
+    justify-content:space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.promocoes {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 20vh 20vh;
+    grid-template-areas: 
+    "a b" 
+    "c d" 
+    
+}
+#promo1 {
+    background: white;
+    grid-area: a;
+}
+#promo2 {
+    background: blueviolet;
+    grid-area: b;
+}
+#promo3 {
+    background: gold;
+    grid-area: c;
+}
+#promo4 {
+    background: red;
+    grid-area: d;
+}
+.promo-alinhar {
+    
+    
+}
+p {
+    
+}

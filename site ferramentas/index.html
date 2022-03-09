@@ -1,46 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Loja De Ferramentas</title>
-    <link rel="stylesheet" href="..estilo/style.css">
+    <link rel="stylesheet" href="/Criando/site ferramentas/estilo/style.css">
 </head>
 <body>
     <section class="topo">
             <header>
                 <h1>Loja de Ferramentas</h1>
             </header>
+            <div class="home-busca">
+                <span class="iconhome">
+                    <a href="#"><img id="icone-home" src="../1x/outline_home_black_24dp.png" alt="home"></a>
+                </span>  
+
+                <input value="" data-hj-whitelist="" id="busca" name="busca" type="text" placeholder="O que você procura..." width="100%" autocomplete="off" nm-autocomplete="off">
             
+                <button type="submit" id="btnBusca" class="pull-right btn-search" disabled="" arial-label="Buscar">
+                    <img id="lupa" src="img ferramentas/search.webp" alt="lupa">
+                </button>
                 
-                <div class="buscador">
-                    <input value="" data-hj-whitelist="" id="busca" name="busca" type="text" placeholder="O que você procura..." width="100%" autocomplete="off" nm-autocomplete="off">
-                </div>
-                <div>
-                    <button type="submit" id="btnBusca" class="pull-right btn-search" disabled="" arial-label="Buscar"></button>
-                    <img src="img ferramentas/search.webp" alt="lupa">
-                </div>
                 <nav>
-                
                     <a href="#">Contato</a>
                     <a href="#">Entre ou Cadastre-se</a>
                 </nav>
-                <img src="img ferramentas/icon-novo-car.webp" alt="iconecarrinho">
-            
+            </div>
+            <img src="img ferramentas/icon-novo-car.webp" alt="iconecarrinho">     
     </section>
 
     <section class="meio">
         <main>
+            <h2>Promocoes</h2>
             <div class="promocoes">
-                <h2>Promocoes</h2>
-                <div id="promo1">
-                    <img src="#" alt="martelo">
-                    <p>R$ 99,00</p>
+                
+                <div class="promo" id="promo1">martelo                   
+                    <img src="#" alt="imgmartelo">
+                    <p>R$ 99,00</p>                    
                 </div>
-                <div id="promo2">
-                    <img src="#" alt="kitferramentas">
+                <div class="promo" id="promo2">kit
+                    <img src="#" alt="imgkitferramentas">
                     <p>R$ 549,99</p>
+                </div>
+                <div class="promo" id="promo3">alicate
+                    <img src="#" alt="imgalicate">
+                    <p>R$ 49,99</p>
+                </div>
+                <div class="promo" id="promo4">Furadeira
+                    <img src="#" alt="imgfuradeira">
+                    <p>R$ 349,99</p>
                 </div>
             </div>
             <div class="categoria">
